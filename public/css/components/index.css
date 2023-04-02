@@ -1,0 +1,29 @@
+
+:root {
+    --main-color: #cacfd6;
+    --secondary-color: #cacfd6;
+   
+}
+
+html body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+    background-image: url('/images/background.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+#app {
+    height: 100vh;
+    margin: auto; 
+}
+
+main {
+     background-color: rgba(208, 125, 166, 0.427);
+     min-height: 82.2vh;
+
+}
+
+

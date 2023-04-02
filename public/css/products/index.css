@@ -1,0 +1,29 @@
+.product-wrapper {
+    text-decoration: none;
+    color: #000;
+}
+
+.image {
+    height: 90%;
+    width: 90%;
+    object-fit: contain;
+}
+
+.product-detail-container {
+    width: 250px;
+    text-align: initial;
+    padding-left: 16px;
+}
+
+.pagination-container {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination-container nav .d-none {
+    flex-direction: column-reverse;
+}
+
+.pagination-container nav {
+    background-color: var(--main-color);
+}

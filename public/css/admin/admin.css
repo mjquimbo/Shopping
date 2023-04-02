@@ -1,0 +1,41 @@
+.content {
+    text-align: center;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(210, 214, 216, 0.355);
+}
+h2{
+    padding-top: 15px;
+}
+
+/*
+tr:nth-child(even) {
+    background-color: yellow;
+}*/
+
+th {
+    background-color: rgba(182, 42, 131, 0.27);
+    color: black;
+}
+
+.table
+{
+    padding-bottom: 10px;
+}
+#tableLabel {
+    text-align: center;
+    font-family: 'Lobster';
+    font-weight: bold;
+}
+
+.td-password {
+    word-break: break-all;
+}

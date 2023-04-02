@@ -1,0 +1,33 @@
+nav {
+    background-color: rgb(233, 226, 205);
+
+}
+
+.logo {
+    width: 75px;
+    height: 60px;
+    object-fit: cover;
+    float:left;
+}
+
+.logo-text {
+    margin-left: 10px;
+    font-family: 'Lobster';
+    font-size: 34px;
+    font-weight: bolder;
+    font-style: italic;
+    color: #33194a;
+    text-shadow: 2px 2px #e48cb5;
+  }
+  
+.shopping-cart-container {
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: #000;
+    font-size:24px;
+    font-weight: 500;
+    font-family: ar;
+    font-size: 18px;
+    padding-top: 12px;;
+}

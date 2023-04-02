@@ -1,0 +1,12 @@
+.image {
+    height: 90%;
+    width: 90%;
+    margin: auto;
+    
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    
+}

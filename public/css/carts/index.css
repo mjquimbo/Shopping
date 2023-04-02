@@ -1,0 +1,9 @@
+.check-out-button {
+    width: 100%;
+    text-align: right;
+    padding: 10px 0;
+}
+
+.check-out-button a {
+    margin-right: 20px;
+}

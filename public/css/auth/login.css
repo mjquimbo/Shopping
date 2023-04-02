@@ -1,0 +1,9 @@
+.login-container {
+    height: 70vh;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+}
+.adminBtn{
+    margin-top: 5%;
+}
