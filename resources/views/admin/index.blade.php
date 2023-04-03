@@ -62,7 +62,7 @@
                         <td>{{ $product->brand }}</td>
                         <td>{{ $product->description }}</td>
                         <td>{{ $product->model }}</td>
-                        <td>${{ $product->price }}</td>
+                        <td>₱{{ $product->price }}</td>
                         <td>{{ $product->created_at }}</td>
                         <td>{{ $product->updated_at }}</td>
                         <td>
