@@ -12,7 +12,7 @@
                             <div class="product-detail-container">
                                 <div>Brand: {{ $product->brand }}</div>
                                 <div>Model: {{ $product->model }}</div>
-                                <div>Price: ${{ $product->price }}</div>
+                                <div>Price: ₱{{ $product->price }}</div>
                             </div>
                         </a>
 

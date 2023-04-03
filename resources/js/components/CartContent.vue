@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="ps-2">Total Quantity: {{ cart.totalQuantity }}</div>
-    <div class="ps-2">Total Price: ${{ cart.totalPrice }}</div>
+    <div class="ps-2">Total Price: ₱{{ cart.totalPrice }}</div>
 
     <div class="cart-container" v-if="isCartEmpty(cart.products)">
       <div class="col m-2 text-center" v-for="product in cart.products" :key="product.id">
@@ -10,7 +10,7 @@
           <div class="product-detail-container">
             <div>Brand: {{ product.brand }}</div>
             <div>Model: {{ product.model }}</div>
-            <div>Original Price: ${{ product.price }}</div>
+            <div>Original Price: ₱{{ product.price }}</div>
 
             <div>
               Quantity:
@@ -21,7 +21,7 @@
               <span class="increment" @click="addProductToCart(product)">
                 <i class="fa-solid fa-square-plus"></i>
               </span>
-              <div>Total Price: ${{ product.pivot.price }}</div>
+              <div>Total Price: ₱{{ product.pivot.price }}</div>
               <button class="btn btn-danger m-2" @click="deleteProduct(product)">
                 Delete
               </button>
